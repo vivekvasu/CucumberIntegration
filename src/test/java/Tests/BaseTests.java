@@ -13,7 +13,7 @@ public class BaseTests
 	@Given("^User is in homepage$")
 	public void navigateToHomepage()
 	{
-		System.out.println("Given");
+		System.out.println("Inside Given");
 	}
 
 	@Then("^Enter username and password$")
@@ -25,7 +25,7 @@ public class BaseTests
 	@When("^Clicks on the submit button$")
 	public void clickOnSubmitButton()
 	{
-		System.out.println("When");
+		System.out.println("Inside When");
 	}
 
 	@Then("^login should be successful$")

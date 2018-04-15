@@ -1,5 +1,9 @@
 Feature: Login Functionality Feature
 
+Background: Opened the url in chrome browser
+
+Given Open the url in chrome browser
+
 
 @positiveScenario
 Scenario: Verify Valid Login
