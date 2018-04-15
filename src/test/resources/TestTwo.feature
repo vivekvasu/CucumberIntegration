@@ -1,4 +1,4 @@
-Feature: Login Functionality Feature
+Feature: Invalid Login Functionality Feature
 
 Background: Opened the url in chrome browser
 
@@ -13,7 +13,7 @@ When  Clicks on the submit button
 Then  login should be successful
 
 @Negative
-Scenario: Verify Innvlid Login
+Scenario: Verify Invalid Login
 Given User is in homepage
 Then  Enter username and password
 When  Clicks on the submit button
